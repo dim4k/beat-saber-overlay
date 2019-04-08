@@ -1,64 +1,64 @@
 <html>
-	<head>
-		<title>Overlay</title>
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet"> 
-	</head>
-	
-	<body>
-		<div id="overlay" class="hidden">
-			<div id="performance">
-				<div class="performance-group">
-					<span class="text" id="rank">E</span>
-					<span class="subtext" id="percentage">0%</span>
-				</div>
+    <head>
+        <title>overlay</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=montserrat:400,600,700,800" rel="stylesheet">
+    </head>
 
-				<div class="performance-group">
-					<span class="text" id="combo">0</span>
-					<span class="subtext">Combo</span>
-				</div>
-				
-				<span id="score">0</span>
-			</div>
+    <body>
+        <div id="overlay" class="hidden">
+            <div id="performance">
+                <div class="performance-group">
+                    <span class="text" id="rank">e</span>
+                    <span class="subtext" id="percentage">0%</span>
+                </div>
 
-			<div id="beatmap">
-				<div id="cover">
-					<img id="image">
-					
-					<svg width="90" height="90">
-						<rect width="90" height="90" id="darken"></rect>
-						<circle cx="45" cy="45" r="30" id="remaining"></circle>
-						<circle cx="45" cy="45" r="30" id="progress"></circle>
-					</svg>
+                <div class="performance-group">
+                    <span class="text" id="combo">0</span>
+                    <span class="subtext">combo</span>
+                </div>
 
-					<div>
-						<span id="progress-text">0:00</span>
-					</div>
-				</div>
+                <span id="score">0</span>
+            </div>
 
-				<div id="meta">
-					<div id="text">
-						<div id="titles">
-							<span id="title">Title</span>
-							<span id="subtitle">Subtitle</span>
-						</div>
+            <div id="beatmap">
+                <div id="cover">
+                    <img id="image">
 
-						<span id="artist">Artist</span>
-					</div>
-					
-					<div>
-						<span id="difficulty">Easy</span>
-						<span id="bpm">0 BPM</span>
-						<span id="njs">0 NJS</span>
-					</div>
-				</div>
-			</div>
-		</div>
+                    <svg width="90" height="90">
+                        <rect width="90" height="90" id="darken"></rect>
+                        <circle cx="45" cy="45" r="30" id="remaining"></circle>
+                        <circle cx="45" cy="45" r="30" id="progress"></circle>
+                    </svg>
 
-		<script src="./js/options.js"></script>
-		
-		<script src="./js/ui.js"></script>
-		<script src="./js/events.js"></script>
-		<script src="./js/manager.js"></script>
-	</body>
+                    <div>
+                        <span id="progress-text">0:00</span>
+                    </div>
+                </div>
+
+                <div id="meta">
+                    <div id="text">
+                        <div id="titles">
+                            <span id="title">title</span>
+                            <span id="subtitle">subtitle</span>
+                        </div>
+
+                        <span id="artist">artist</span>
+                    </div>
+
+                    <div>
+                        <span id="difficulty">easy</span>
+                        <span id="bpm">0 bpm</span>
+                        <span id="njs">0 njs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/options.js"></script>
+
+        <script src="./js/ui.js"></script>
+        <script src="./js/events.js"></script>
+        <script src="./js/manager.js"></script>
+    </body>
 </html>
